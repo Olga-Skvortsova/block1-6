@@ -1,0 +1,148 @@
+*
+    margin: 0
+    padding: 0
+body
+    overflow-x: hidden
+.container
+    max-width: 320px
+    margin: 0 auto
+.pink-circle
+    width: 40px
+    height: 40px
+    background: $pink-color
+    border-radius: 20px
+.pink-circle:hover
+    filter: grayscale(20%)
+    cursor: pointer
+    transition: 0.5s
+.services-button
+    height: 40px
+    padding: 0 10px
+    background: $white-transparent-color
+    border: none
+    font-family: 'TT Lakes'
+    font-size: 16px
+    line-height: 24px
+    letter-spacing: -0.2px
+    color: $dark-grey-color
+    font-weight: 500
+.light-header
+    color: $dark-grey-color
+    font-family: TT Lakes
+    font-size: 16px
+    font-style: normal
+    font-weight: 400
+    line-height: 24px
+    letter-spacing: -0.2px
+    text-transform: uppercase
+.active
+    border: 2px solid $blue-light-color
+    border-radius: 6px
+    background: $white-color
+.big-text
+    font-family: 'TT Lakes'
+    letter-spacing: 0.2px
+    color: $black-grey-color
+    font-weight: 500
+.button-with-red-arrow
+    width: 40px
+    height: 40px
+    border: 2px solid $pink-color
+    background: $white-transparent-color
+    border-radius: 90px
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    &__arrow1
+        width: 8px
+        height: 2px
+        background: $pink-color
+        transform: rotate(45deg)
+        margin-bottom: 3px
+        border-radius: 90px
+    &__arrow2
+        width: 8px
+        height: 2px
+        background: $pink-color
+        transform: rotate(-45deg)
+        border-radius: 90px
+.button-with-red-arrow:hover
+    filter: grayscale(20%)
+    cursor: pointer
+    &__arrow1
+        filter: grayscale(20%)
+    &__arrow2
+        filter: grayscale(20%)
+.button-order
+    width: 119px
+    height: 32px
+    border: 2px solid $pink-color
+    background: $pink-color
+    border-radius: 90px
+    display: flex
+    align-items: center
+    justify-content: space-around
+    cursor: pointer
+    &__text
+        width: 67px
+        height: 24px
+        color: $white-color
+        text-align: right
+        font-family: TT Lakes
+        font-size: 12px
+        font-style: normal
+        font-weight: 700
+        line-height: 24px
+        letter-spacing: -0.15px
+        text-transform: uppercase
+        margin-left: 12px
+.button-order:hover
+    filter: grayscale(20%)
+
+
+.flexdisplay
+    display: flex !important
+.hidden
+    visibility: hidden
+.displaynone
+    display: none !important
+
+
+.absolute-burger
+    top: 0.1px
+    margin-left: 2px
+.more
+    display: flex
+    justify-content: flex-start
+    &__img
+        width: 24px
+        height: 24px
+        display: flex
+        align-items: center
+        justify-content: center
+    &__text
+        font-family: 'TT Lakes'
+        font-weight: 500
+        font-size: 16px
+        line-height: 24px
+        letter-spacing: -0.2px
+        color: #1B1C21
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .absolute-burger
+        width: 680px !important
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .container
+        max-width: 768px
+
+@media (min-width: 1120px)
+    .container
+        max-width: 1120px
+
+@media (min-width: 1440px)
+    .container
+        margin: 0 0 0 auto !important
+        text-align: right
+        max-width: 1102px

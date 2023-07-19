@@ -1,0 +1,319 @@
+.menu
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20), -2px 0px 4px 0px rgba(69, 79, 126, 0.02)
+    display: none
+    width: 320px
+    height: 1870px
+    left: 0px
+    position: absolute
+    z-index: 5
+    background: $white-color
+    &_active
+        display: block
+    &__img
+        display: none
+    &__search
+        position: relative
+        top: 25px
+        left: 256px
+        display: flex
+        align-items: center
+        justify-content: center
+    &__elements
+        width: 222px
+        height: 420px
+        position: relative
+        top: 53px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &__element
+        display: flex
+        align-items: center
+        height: 32px
+        margin-left: 24px
+        font-family: 'TT Lakes'
+        font-weight: 500
+        font-size: 16px
+        line-height: 24px
+        letter-spacing: -0.2px
+        color: $black-grey-color
+        &_active
+            color: $dark-grey-color
+            margin-left: 0
+    &__element:hover
+        color: $dark-grey-color
+        cursor: pointer
+    &__blue-line-before-element
+        border-radius: 0 90px 90px 0
+        height: 32px
+        width: 4px
+        background: $blue-color
+        margin-right: 20px
+    &__navigation
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        position: relative
+        top: 82px
+        left: 24px
+        width: 196px
+        height: 124px
+        p
+            font-family: 'TT Lakes'
+            font-weight: 500
+            font-size: 16px
+            line-height: 24px
+            letter-spacing: -0.2px
+            color: $black-grey-color
+        h4
+            font-family: 'TT Lakes'
+            font-weight: 700
+            font-size: 24px
+            line-height: 32px
+            letter-spacing: -0.6px
+            color: $black-grey-color
+    &__nav-butons
+        width: 152px
+        height: 40px
+        display: flex
+        justify-content: space-between
+        div
+            display: flex
+            justify-content: center
+            align-items: center
+    &__language
+        position: relative
+        top: 92px
+        left: 24px
+        width: 87px
+        height: 24px
+        display: flex
+        justify-content: space-between
+        p
+            font-family: 'TT Lakes'
+            font-weight: 500
+            font-size: 16px
+            line-height: 24px
+            letter-spacing: -0.2px
+            color: $black-grey-color
+        p:hover
+            color: $dark-grey-color
+
+
+.call-active
+    width: 320px
+    position: absolute
+    background: $white-color
+    height: 100%
+    z-index: 10
+    display: block !important
+.call
+    display: none
+    &__cross
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-left: 16px
+        margin-top: 24px
+        margin-bottom: 32px
+        div
+            height: 2px
+            width: 33px
+            background: $white-color
+            border-radius: 1px
+        div:first-child
+            position: relative
+            transform: rotate(45deg)
+            transition: 0.5s
+            left: 10px
+        div:last-child
+            position: relative
+            transform: rotate(-45deg)
+            transition: 0.5s
+            right: 10px
+    &__header
+        width: 288px
+        height: 32px
+        display: flex
+        color: $black-grey-color
+        font-family: TT Lakes
+        font-size: 24px
+        font-style: normal
+        font-weight: 700
+        line-height: 32px
+        letter-spacing: -0.6px
+        margin-bottom: 24px
+    &__blue-line
+        border-radius: 0 90px 90px 0
+        height: 32px
+        width: 4px
+        background: $blue-color
+        margin-right: 20px
+    &__inputs
+        height: 310px
+        width: 288px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        margin: 0 auto 16px auto
+        input
+            width: 100%
+            height: 48px
+            border-radius: 8px
+            border: 1px solid $light-grey
+            color: $grey-color
+            font-family: TT Lakes
+            font-size: 16px
+            font-style: normal
+            font-weight: 500
+            line-height: 24px
+            letter-spacing: -0.2px
+            padding-left: 16px
+            box-sizing: border-box 
+        input:last-child
+            height: 118px
+    &__text
+        width: 288px
+        color: $dark-grey-color
+        font-family: TT Lakes
+        font-size: 14px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+        margin: 0 auto 19px auto
+        span
+            color: $pink-color
+    &__button
+        width: 136px
+        margin-left: 150px
+
+.bell-active
+    width: 320px
+    position: absolute
+    height: 100%
+    z-index: 10
+    display: block !important
+    background: $white-color
+.bell
+    display: none
+    &__cross
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-left: 16px
+        margin-top: 24px
+        margin-bottom: 32px
+        div
+            height: 2px
+            width: 33px
+            background: $white-color
+            border-radius: 1px
+        div:first-child
+            position: relative
+            transform: rotate(45deg)
+            transition: 0.5s
+            left: 10px
+        div:last-child
+            position: relative
+            transform: rotate(-45deg)
+            transition: 0.5s
+            right: 10px
+    &__header
+        width: 288px
+        height: 32px
+        display: flex
+        color: $black-grey-color
+        font-family: TT Lakes
+        font-size: 24px
+        font-style: normal
+        font-weight: 700
+        line-height: 32px
+        letter-spacing: -0.6px
+        margin-bottom: 24px
+    &__blue-line
+        border-radius: 0 90px 90px 0
+        height: 32px
+        width: 4px
+        background: $blue-color
+        margin-right: 20px
+    input
+        height: 48px
+        border-radius: 8px
+        border: 1px solid $light-grey
+        color: $grey-color
+        font-family: TT Lakes
+        font-size: 16px
+        font-style: normal
+        font-weight: 500
+        line-height: 24px
+        letter-spacing: -0.2px
+        padding-left: 16px
+        box-sizing: border-box
+        margin: 0 16px 16px 16px
+        width: 288px
+    &__text
+        width: 288px
+        color: $dark-grey-color
+        font-family: TT Lakes
+        font-size: 14px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+        margin: 0 auto 19px auto
+        span
+            color: $pink-color
+    &__button
+        width: 136px
+        margin-left: 150px
+
+.menu-wrapper
+    display: none
+.menu-wrapper-active
+    display: block !important
+    position: absolute
+    width: 100%
+    height: 1870px
+    z-index: 4
+    background: $white-menu-color
+
+@media (min-width: 321px) and (max-width: 360px)
+    .menu
+        width: 100%
+
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .menu
+        height: 1886px
+    .menu-wrapper-active
+        height: 1886px
+
+@media (min-width: 1440px)
+    .menu-wrapper
+        display: block !important
+    .menu
+        display: block !important
+        height: 1929px !important
+        box-shadow: none
+        &__elements
+            margin-bottom: 240px
+        &__img
+            display: block
+            position: absolute
+            top: 40px
+            left: 20px
+        &__search
+            top: 45px
+        &__elements
+            top: 83px
+    .call
+        &__cross
+            margin-left: -60px
+    .call-active
+        right: 0
+        height: 1929px
+    .bell
+        &__cross
+            margin-left: -60px 
+    .bell-active
+        right: 0
+        height: 1929px

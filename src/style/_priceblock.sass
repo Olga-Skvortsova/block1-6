@@ -1,0 +1,104 @@
+.price-title-background
+    &__title
+        height: 56px !important
+
+.swiperprice
+    &__container
+        height: 260px !important
+        min-width: 0
+        border: none !important
+    &__table-header
+        display: none
+    &__wrapper
+        height: 200px !important
+        width: 1364px !important
+    &__slide
+        height: 200px !important
+        width: 238px !important
+        display: block !important
+        box-sizing: border-box
+    &__textbig
+        margin-top: 16px
+        color: $dark-grey-color
+        font-family: TT Lakes
+        font-size: 14px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+    &__textsmall
+        color: $black-grey-color
+        font-family: TT Lakes
+        font-size: 14px
+        font-style: normal
+        font-weight: 400
+        line-height: 18px
+        letter-spacing: 0.2px
+    &__button-order
+        margin: 0
+        float: right
+
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .swiperprice
+        &__container
+            height: 411px !important
+        &__table-header
+            display: flex !important
+            width: 429px
+            height: 16px
+            margin: 31px 0 0 16px
+            justify-content: space-between
+            p
+                color: $dark-grey-color
+                font-family: TT Lakes
+                font-size: 14px
+                font-style: normal
+                font-weight: 500
+                line-height: 16px
+            p:last-child
+                padding-left: 40px
+        &__wrapper
+            width: 720px !important
+            height: 324px !important
+            border-radius: 6px
+        &__slide
+            display: flex !important
+            width: 720px !important
+            height: 64px !important
+        &__textbig
+            display: none
+        &__swiper-readmore
+            display: none !important
+
+
+@media (min-width: 1120px)
+    .swiperprice
+        &__container
+            height: 419px !important
+        &__table-header
+            display: flex !important
+            width: 657px
+            height: 16px
+            margin: 31px 0 0 16px
+            justify-content: space-between
+            p
+                color: $dark-grey-color
+                font-family: TT Lakes
+                font-size: 14px
+                font-style: normal
+                font-weight: 500
+                line-height: 16px
+            p:last-child
+                padding-left: 40px
+        &__wrapper
+            width: 1056px !important
+            height: 324px !important
+            border-radius: 6px
+        &__slide
+            display: flex !important
+            width: 1056px !important
+            height: 64px !important
+        &__textbig
+            display: none
+        &__swiper-readmore
+            display: none !important

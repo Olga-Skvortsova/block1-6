@@ -1,0 +1,216 @@
+.section1-background
+    background: $white-color2
+    width: 100%
+    position: relative
+    border-bottom: 1px solid $light-blue-color
+
+.section1-background2
+    height: 450px !important
+
+.services
+    height: 498px
+    padding-top: 24px
+    border-bottom: 1px solid $light-blue-color
+    &__h1
+        display: flex
+        width: 100%
+        height: 40px
+        margin-bottom: 24px
+        h1
+            font-family: 'TT Lakes' 
+            font-size: 28px
+            line-height: 40px
+            letter-spacing: -0.6px
+            font-weight: 700
+            margin: 0
+    &__blue-line-before-h1
+        border-radius: 0 90px 90px 0
+        height: 40px
+        width: 4px
+        background: $blue-color
+        margin-right: 16px
+    &__navigation-top
+        display: none
+    &__swiper-container
+        height: 40px !important
+        margin-bottom: 24px
+        margin-left: 8px
+    &__swiper-wrapper
+        width: 1230px !important
+        height: 40px !important
+    &__swiperslide
+        height: 40px
+        width: fit-content !important
+        box-sizing: border-box
+        padding: 8px 16px
+        margin: 0
+        display: inline-block
+        color: $dark-grey-color
+        font-family: TT Lakes
+        font-size: 16px
+        font-style: normal
+        font-weight: 500
+        line-height: 24px
+        letter-spacing: -0.2px
+        cursor: pointer
+    &__swiperslide:hover
+        color: $black-grey-color
+    &__swiperslide-active
+        padding: 6px 16px
+        background: $white-color
+        border-radius: 6px
+        border: 2px solid #B8FFEC
+    &__content
+        width: 100%
+        height: 322px
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+    &__text-and-more
+        content: "Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя."
+        width: 100%
+        height: 130px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        transition: all 0.5s ease
+    &__text
+        transition: all 0.5s ease
+        display: block
+        width: 288px
+        height: 90px
+        font-size: 14px
+        line-height: 18px
+        span
+            display: none
+    &__read-more
+        width: 288px
+        cursor: pointer
+        transition: all 0.5s ease
+    &__photo
+        width: 320px
+        height: 176px
+    &__hiden
+        display: none
+        transition: all 0.5s ease
+    &__text-after
+        display: none
+
+.serices-read-more-block
+    height: 588px
+.serices-read-more-text
+    height: 204px !important
+    margin-bottom: 50px
+.serices-text
+    margin-bottom: 134px
+.span-available
+    display: block !important
+.services-span2
+    display: none
+.serices-read-more2
+    margin-top: 75px
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .section1-background
+        height: 416px
+    .services
+        &__content
+            width: 720px
+            height: 208px
+            flex-direction: row
+        &__text-and-more
+            width: 312px
+            height: 194px
+        &__text
+            width: 312px
+            height: 160px
+        &__text-after
+            display: block !important
+
+@media (min-width: 1120px)
+    .section1-background
+        top: 0
+        height: 537px
+    .services
+        padding-top: 42px
+        &__h1
+            margin-bottom: 8.4px
+            h1
+                margin-right: 450px
+        &__blue-line-before-h1
+            margin-right: 30px
+        &__navigation-top
+            display: flex
+            justify-content: space-between
+            width: 373px
+            height: 40px
+        &__navigation-top-button-1
+            display: flex
+            align-items: center
+            justify-content: space-between
+            height: 100%
+            width: 173px
+            p
+                font-family: 'TT Lakes'
+                font-weight: 500
+                font-size: 16px
+                line-height: 24px
+                letter-spacing: -0.2px
+                color: $black-grey-color
+            div
+                display: flex
+                align-items: center
+                justify-content: center
+        &__navigation-top-button-2
+            display: flex
+            align-items: center
+            justify-content: space-between
+            height: 100%
+            width: 168px
+            p
+                font-family: 'TT Lakes'
+                font-weight: 500
+                font-size: 16px
+                line-height: 24px
+                letter-spacing: -0.2px
+                color: $black-grey-color
+            div
+                display: flex
+                align-items: center
+                justify-content: center
+        &__swiper-container
+            height: 90px !important
+        &__swiper-wrapper
+            height: 90px !important
+            flex-wrap: wrap !important
+            display: flex !important
+        &__swiperslide
+            margin-right: 20px
+        &__content
+            width: 1058px
+            height: 307px
+            align-items: flex-start
+            flex-direction: row
+        &__text-and-more
+            width: 490px
+            height: 198px
+        &__text
+            width: 490px
+            height: 160px
+        &__text::after
+            white-space: pre
+            content: "\0a \0a Мы успешно работаем с 1992 года и заслужили репутацию надежного \0a партнера, что подтверждает большое количество постоянных клиентов. \0a Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою \0a очередь, советуют нас родным и близким."
+        &__read-more
+            width: 490px
+        &__photo
+            width: 532px
+            height: 307px
+
+
+@media (min-width: 1440px)
+    .services
+        &__text
+            text-align: left !important

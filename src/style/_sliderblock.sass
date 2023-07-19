@@ -1,0 +1,154 @@
+.brands-title-background
+    background: linear-gradient(270deg, $white-color2 0%, $white-color 100%)
+    width: 100%
+    position: relative
+    .brands-title
+        height: 80px
+        width: 256px
+        margin: 0 auto
+        display: flex
+        justify-content: center
+        align-items: center
+.swiper
+    background: $white-color2
+    width: 100%
+    .swiper-container
+        height: 140px
+        display: flex
+        flex-direction: column
+        min-width: 0
+        transition: all 0.5s ease
+        border-bottom: 1px solid $light-blue-color
+        .swiper-wrapper
+            width: 2320px
+            height: 72px
+            display: flex
+            margin-top: 16px
+            margin-bottom: 16px
+            transition: all 0.5s ease
+            .swiper-slide
+                background: $white-color
+                width: 240px
+                height: 72px
+                border-radius: 6px
+                border: 1px solid $light-grey
+                box-sizing: border-box
+                padding: 0 16px
+                display: flex
+                justify-content: space-between
+                align-items: center
+            .swiper-slide:nth-child(10)
+                display: none
+            .swiper-slide:nth-child(11)
+                display: none
+        .swiper-pagination
+            .swiper-pagination-bullet
+                background: $light-grey2
+                width: 12px
+                height: 12px
+                border-radius: 90px
+                cursor: pointer
+                transition: all 0.5s ease
+            .swiper-pagination-bullet:hover
+                background: $grey-color
+        .swiper-readmore
+            display: none
+            transition: all 0.5s ease
+            &__text-after
+                display: none
+                font-family: 'TT Lakes'
+                font-weight: 500
+                font-size: 16px
+                line-height: 24px
+                letter-spacing: -0.2px
+                color: $black-grey-color
+        .swiper-readmore:hover
+            cursor: pointer
+            .more__img
+                filter: grayscale(30%)
+.swiper-сontainer-height-more
+    height: 354px !important
+.swiper-wrapper-height-more
+    height: 232px !important
+.imgtransform
+    transform: rotate(180deg)
+
+
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .brands-title-background
+        .brands-title
+            height: 56px
+            width: 720px
+            margin: auto
+            h3
+                text-align: left
+                width: 720px
+    .swiper
+        .swiper-container
+            height: 266px
+            width: 720px
+            margin: auto
+            .swiper-wrapper
+                width: 720px
+                height: 160px
+                display: flex
+                flex-wrap: wrap
+                margin-top: 24px
+                margin-bottom: 24px
+                .swiper-slide
+                    width: 224px
+                    margin-right: 24px
+                .swiper-slide:nth-child(3)
+                    margin-right: 0
+                .swiper-slide:nth-child(6)
+                    margin-right: 0
+                .swiper-slide:nth-child(7)
+                    display: none
+                .swiper-slide:nth-child(8)
+                    display: none
+                .swiper-slide:nth-child(9)
+                    display: none
+            .swiper-readmore
+                display: flex
+
+@media (min-width: 1120px)
+    .brands-title-background
+        .brands-title
+            height: 56px
+            width: 1072px
+            margin: auto
+            h3
+                width: 1072px
+                text-align: left
+    .swiper
+        .swiper-container
+            height: 266px
+            width: 1056px
+            margin: auto
+            .swiper-wrapper
+                width: 1056px
+                height: 160px
+                display: flex
+                flex-wrap: wrap
+                margin-top: 24px
+                margin-bottom: 24px
+                .swiper-slide
+                    margin-right: 32px
+                .swiper-slide:nth-child(4)
+                    margin-right: 0
+                .swiper-slide:nth-child(8)
+                    margin-right: 0
+                .swiper-slide:nth-child(9)
+                    display: none
+            .swiper-readmore
+                display: flex
+                margin-bottom: 34px
+
+@media (min-width: 1440px)
+    .brands-title-background
+        .brands-title
+            margin: 0 0 0 auto
+    .swiper
+        .swiper-wrapper
+            margin: 24px -20px

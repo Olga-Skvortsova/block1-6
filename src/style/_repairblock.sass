@@ -1,0 +1,78 @@
+.swiper-repair
+    transition: all 0.5s ease
+    &__container
+        height: 243px !important
+        transition: all 0.5s ease
+    &__wrapper
+        height: 160px !important
+        transition: all 0.5s ease
+    &__slide
+        width: 240px
+        height: 160px !important
+        padding: 0
+        display: block !important
+        transition: all 0.5s ease
+        p
+            font-family: 'TT Lakes'
+            font-weight: 500
+            font-size: 16px
+            line-height: 24px
+            letter-spacing: -0.2px
+            color: $black-grey-color
+            margin: 16px 0 64px 0
+        button
+            margin-left: 168px
+.repair-сontainer-height-more
+    height: 634px !important
+.repair-wrapper-height-more
+    height: 512px !important
+
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .swiper-repair
+        &__container
+            height: 282px
+            width: 720px
+            margin: auto
+        &__wrapper
+            width: 720px
+            height: 160px
+            display: flex
+            flex-wrap: wrap
+            margin-top: 24px
+            margin-bottom: 24px
+        &__slide
+            width: 224px
+            margin-right: 16px !important
+            button
+                margin-left: 155px
+        &__slide:nth-child(4)
+            margin-top: 63px 
+        &__slide:nth-child(5)
+            margin-top: 63px 
+        &__slide:nth-child(6)
+            margin-top: 63px
+        &__slide:nth-child(7)
+            margin-top: 22px
+        &__slide:nth-child(8)
+            margin-top: 22px 
+        &__slide:nth-child(9)
+            margin-top: 22px 
+
+.margintop22
+    margin-top: 22px !important
+
+@media (min-width: 1120px)
+    .swiper-repair
+        &__container
+            height: 282px !important
+        &__slide:nth-child(5)
+            margin-top: 100px 
+        &__slide:nth-child(6)
+            margin-top: 100px 
+        &__slide:nth-child(7)
+            margin-top: 100px 
+        &__slide:nth-child(8)
+            margin-top: 100px 
+        &__slide:nth-child(9)
+            margin-top: 22px 

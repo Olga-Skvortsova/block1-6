@@ -1,0 +1,52 @@
+footer
+    width: 100%
+    background: $white-color2
+.foter
+    height: 147px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+    p
+        color: $dark-grey-color
+        text-align: center
+        font-family: TT Lakes
+        font-size: 14px
+        font-style: normal
+        font-weight: 500
+        line-height: 16px
+
+
+@media (min-width: 768px) and (max-width: 1119px)
+    .foter
+        height: 105px
+        flex-direction: row
+        align-items: flex-start
+        padding-top: 32px
+        box-sizing: border-box
+        p:nth-child(1)
+            width: 218px
+            text-align: left
+        p:nth-child(2)
+            width: 214px
+        p:nth-child(3)
+            width: 213px
+            text-align: right
+
+
+@media (min-width: 1120px)
+    .foter
+        height: 105px
+        flex-direction: row
+        align-items: flex-start
+        box-sizing: border-box
+        justify-content: space-between
+        padding: 32px 33px 0 33px
+        p:nth-child(1)
+            width: 218px
+            text-align: left
+        p:nth-child(2)
+            width: 214px
+        p:nth-child(3)
+            width: 213px
+            text-align: right
