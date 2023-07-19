@@ -1,4 +1,4 @@
-# WEBPACK
+<!-- # WEBPACK
 
 ссылка на youtube
 https://youtu.be/o8KMucDpSno
@@ -26,3 +26,4 @@ npm run build-prod
 ```shell
 npm run clear
 ```
+ -->
