@@ -1,17 +1,17 @@
-.brands-title-background
-    background: linear-gradient(270deg, $white-color2 0%, $white-color 100%)
+.swiper
+    background: $white-color2
     width: 100%
-    position: relative
-    .brands-title
+    &__title-background
+        width: 100%
+        height: 80px
+        background: linear-gradient(270deg, $white-color2 0%, $white-color 100%)
+    &__title
         height: 80px
         width: 256px
         margin: 0 auto
         display: flex
         justify-content: center
         align-items: center
-.swiper
-    background: $white-color2
-    width: 100%
     .swiper-container
         height: 140px
         display: flex
@@ -76,15 +76,16 @@
 
 
 @media (min-width: 768px) and (max-width: 1119px)
-    .brands-title-background
-        .brands-title
+    .swiper
+        &__title-background
+            height: 56px
+        &__title
             height: 56px
             width: 720px
             margin: auto
             h3
                 text-align: left
                 width: 720px
-    .swiper
         .swiper-container
             height: 266px
             width: 720px
@@ -113,15 +114,16 @@
                 display: flex
 
 @media (min-width: 1120px)
-    .brands-title-background
-        .brands-title
+    .swiper
+        &__title-background
+            height: 56px
+        &__title
             height: 56px
             width: 1072px
             margin: auto
             h3
                 width: 1072px
                 text-align: left
-    .swiper
         .swiper-container
             height: 266px
             width: 1056px
@@ -146,9 +148,6 @@
                 margin-bottom: 34px
 
 @media (min-width: 1440px)
-    .brands-title-background
-        .brands-title
-            margin: 0 0 0 auto
     .swiper
         .swiper-wrapper
             margin: 24px -20px
