@@ -62,17 +62,16 @@
                 </div>
                 Обратная связь
             </div>
-            <div class="call__inputs">
-                <input type="text" placeholder="Имя">
-                <input type="text" placeholder="Телефон">
-                <input type="text" placeholder="Электронная почта">
-                <input type="text" placeholder="Сообщение">
-            </div>
+            <form id="formcall" class="call__inputs">
+                <input required type="text" placeholder="Имя">
+                <input required type="text" placeholder="Телефон">
+                <input required type="text" placeholder="Электронная почта">
+                <input required type="text" placeholder="Сообщение">
+            </form>
             <p class="call__text">Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
-            <div class="call__button button-order">
-                <p class="button-order__text">Отправить</p>
-                <img src="./img/goside.svg" alt="arrow">
-            </div>
+            <button type="submit" form="formcall" class="call__button button-order">
+                <span class="button-order__text">Отправить</span>
+            </button>
         </div>
 
 
@@ -86,12 +85,13 @@
                 </div>
                 Обратная связь
             </div>
-            <input type="text" placeholder="Телефон">
+            <form id="formbell">
+                <input required type="text" placeholder="Телефон">
+            </form>
             <p class="bell__text">Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
-            <div class="bell__button button-order">
-                <p class="button-order__text">Отправить</p>
-                <img src="./img/goside.svg" alt="arrow">
-            </div>
+            <button type="submit" form="formbell" class="bell__button button-order">
+                <span class="button-order__text">Отправить</span>
+            </button>
         </div>
     </div>
 
@@ -192,7 +192,7 @@
         </section>
 
 
-        <div class="swiper">
+        <section class="swiper">
             <div class="swiper__title-background">
                 <div class="swiper__title container">
                     <h3 class="light-header">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h3>
@@ -287,10 +287,10 @@
                     <p class="more__text">Показать все</p>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <div class="swiper swiper-repair">
+        <section class="swiper swiper-repair">
             <div class="swiper__title-background">
                 <div class="swiper__title container">
                     <h3 class="light-header">РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ</h3>
@@ -299,63 +299,63 @@
             <div class="swiper-container swiper-repair__container container">
                 <div class="swiper-wrapper swiper-repair__wrapper">
                     <div class="swiper-slide swiper-repair__slide">
-                        <p>Ремонт ноутбуков</p>
+                        <h3>Ремонт ноутбуков</h3>
                         <button class="button-with-red-arrow">
                             <div class="button-with-red-arrow__arrow1"></div>
                             <div class="button-with-red-arrow__arrow2"></div>
                         </button>
                     </div>
                     <div class="swiper-slide swiper-repair__slide">
-                        <p>Ремонт планшетов</p>
+                        <h3>Ремонт планшетов</h3>
                         <button class="button-with-red-arrow">
                             <div class="button-with-red-arrow__arrow1"></div>
                             <div class="button-with-red-arrow__arrow2"></div>
                         </button>
                     </div>
                     <div class="swiper-slide swiper-repair__slide">
-                        <p>Ремонт ПК</p>
+                        <h3>Ремонт ПК</h3>
                         <button class="button-with-red-arrow">
                             <div class="button-with-red-arrow__arrow1"></div>
                             <div class="button-with-red-arrow__arrow2"></div>
                         </button>
                     </div>
                     <div class="swiper-slide swiper-repair__slide">
-                        <p>Ремонт ноутбуков</p>
+                        <h3>Ремонт ноутбуков</h3>
                         <button class="button-with-red-arrow">
                             <div class="button-with-red-arrow__arrow1"></div>
                             <div class="button-with-red-arrow__arrow2"></div>
                         </button>
                     </div>
                     <div class="swiper-slide swiper-repair__slide">
-                        <p>Ремонт мониторов</p>
+                        <h3>Ремонт мониторов</h3>
                         <button class="button-with-red-arrow">
                             <div class="button-with-red-arrow__arrow1"></div>
                             <div class="button-with-red-arrow__arrow2"></div>
                         </button>
                     </div>
                     <div class="swiper-slide swiper-repair__slide">
-                        <p>Ремонт ноутбуков</p>
+                        <h3>Ремонт ноутбуков</h3>
                         <button class="button-with-red-arrow">
                             <div class="button-with-red-arrow__arrow1"></div>
                             <div class="button-with-red-arrow__arrow2"></div>
                         </button>
                     </div>
                     <div class="swiper-slide swiper-repair__slide">
-                        <p>Ремонт планшетов</p>
+                        <h3>Ремонт планшетов</h3>
                         <button class="button-with-red-arrow">
                             <div class="button-with-red-arrow__arrow1"></div>
                             <div class="button-with-red-arrow__arrow2"></div>
                         </button>
                     </div>
                     <div class="swiper-slide swiper-repair__slide">
-                        <p>Ремонт ПК</p>
+                        <h3>Ремонт ПК</h3>
                         <button class="button-with-red-arrow">
                             <div class="button-with-red-arrow__arrow1"></div>
                             <div class="button-with-red-arrow__arrow2"></div>
                         </button>
                     </div>
                     <div class="swiper-slide swiper-repair__slide">
-                        <p>Ремонт мониторов</p>
+                        <h3>Ремонт мониторов</h3>
                         <button class="button-with-red-arrow">
                             <div class="button-with-red-arrow__arrow1"></div>
                             <div class="button-with-red-arrow__arrow2"></div>
@@ -371,10 +371,10 @@
                     <p class="more__text">Показать все</p>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <div class="swiper swiperprice">
+        <section class="swiper swiperprice">
             <div class="swiper__title-background swiperprice__title-background">
                 <div class="swiper__title swiperprice__title container">
                     <h3 class="light-header">ЦЕНЫ НА УСЛУГИ</h3>
@@ -388,63 +388,58 @@
                 </div>
                 <div class="swiper-wrapper swiperprice__wrapper">
                     <div class="swiper-slide swiperprice__slide">
-                        <p class="swiperprice__textbig">Ремонтные услуги</p>
-                        <p class="swiperprice__textsmall">Диагностика</p>
-                        <p class="swiperprice__textbig">Цена</p>
-                        <p class="swiperprice__textsmall">Бесплатно</p>
-                        <p class="swiperprice__textbig">Срок</p>
-                        <p class="swiperprice__textsmall">30 мин</p>
+                        <div class="swiperprice__textbig">Ремонтные услуги</div>
+                        <div class="swiperprice__textsmall">Диагностика</div>
+                        <div class="swiperprice__textbig">Цена</div>
+                        <div class="swiperprice__textsmall">Бесплатно</div>
+                        <div class="swiperprice__textbig">Срок</div>
+                        <div class="swiperprice__textsmall">30 мин</div>
                         <button class="button-order swiperprice__button-order">
-                            <p class="button-order__text">Заказать</p>
-                            <img src="./img/goside.svg" alt="arrow">
+                            <span class="button-order__text">Заказать</span>
                         </button>
                     </div>
                     <div class="swiper-slide swiperprice__slide">
-                        <p class="swiperprice__textbig">Ремонтные услуги</p>
-                        <p class="swiperprice__textsmall">Замена дисплея</p>
-                        <p class="swiperprice__textbig">Цена</p>
-                        <p class="swiperprice__textsmall">1000 Р</p>
-                        <p class="swiperprice__textbig">Срок</p>
-                        <p class="swiperprice__textsmall">30-120 мин</p>
+                        <div class="swiperprice__textbig">Ремонтные услуги</div>
+                        <div class="swiperprice__textsmall">Диагностика</div>
+                        <div class="swiperprice__textbig">Цена</div>
+                        <div class="swiperprice__textsmall">Бесплатно</div>
+                        <div class="swiperprice__textbig">Срок</div>
+                        <div class="swiperprice__textsmall">30 мин</div>
                         <button class="button-order swiperprice__button-order">
                             <p class="button-order__text">Заказать</p>
-                            <img src="./img/goside.svg" alt="arrow">
                         </button>
                     </div>
                     <div class="swiper-slide swiperprice__slide">
-                        <p class="swiperprice__textbig">Ремонтные услуги</p>
-                        <p class="swiperprice__textsmall">Замена дисплея</p>
-                        <p class="swiperprice__textbig">Цена</p>
-                        <p class="swiperprice__textsmall">1000 Р</p>
-                        <p class="swiperprice__textbig">Срок</p>
-                        <p class="swiperprice__textsmall">30-120 мин</p>
+                        <div class="swiperprice__textbig">Ремонтные услуги</div>
+                        <div class="swiperprice__textsmall">Диагностика</div>
+                        <div class="swiperprice__textbig">Цена</div>
+                        <div class="swiperprice__textsmall">Бесплатно</div>
+                        <div class="swiperprice__textbig">Срок</div>
+                        <div class="swiperprice__textsmall">30 мин</div>
                         <button class="button-order swiperprice__button-order">
-                            <p class="button-order__text">Заказать</p>
-                            <img src="./img/goside.svg" alt="arrow">
+                            <span class="button-order__text">Заказать</span>
                         </button>
                     </div>
                     <div class="swiper-slide swiperprice__slide">
-                        <p class="swiperprice__textbig">Ремонтные услуги</p>
-                        <p class="swiperprice__textsmall">Замена дисплея</p>
-                        <p class="swiperprice__textbig">Цена</p>
-                        <p class="swiperprice__textsmall">1000 Р</p>
-                        <p class="swiperprice__textbig">Срок</p>
-                        <p class="swiperprice__textsmall">30-120 мин</p>
+                        <div class="swiperprice__textbig">Ремонтные услуги</div>
+                        <div class="swiperprice__textsmall">Диагностика</div>
+                        <div class="swiperprice__textbig">Цена</div>
+                        <div class="swiperprice__textsmall">Бесплатно</div>
+                        <div class="swiperprice__textbig">Срок</div>
+                        <div class="swiperprice__textsmall">30 мин</div>
                         <button class="button-order swiperprice__button-order">
-                            <p class="button-order__text">Заказать</p>
-                            <img src="./img/goside.svg" alt="arrow">
+                            <span class="button-order__text">Заказать</span>
                         </button>
                     </div>
                     <div class="swiper-slide swiperprice__slide">
-                        <p class="swiperprice__textbig">Ремонтные услуги</p>
-                        <p class="swiperprice__textsmall">Замена дисплея</p>
-                        <p class="swiperprice__textbig">Цена</p>
-                        <p class="swiperprice__textsmall">1000 Р</p>
-                        <p class="swiperprice__textbig">Срок</p>
-                        <p class="swiperprice__textsmall">30-120 мин</p>
+                        <div class="swiperprice__textbig">Ремонтные услуги</div>
+                        <div class="swiperprice__textsmall">Диагностика</div>
+                        <div class="swiperprice__textbig">Цена</div>
+                        <div class="swiperprice__textsmall">Бесплатно</div>
+                        <div class="swiperprice__textbig">Срок</div>
+                        <div class="swiperprice__textsmall">30 мин</div>
                         <button class="button-order swiperprice__button-order">
-                            <p class="button-order__text">Заказать</p>
-                            <img src="./img/goside.svg" alt="arrow">
+                            <span class="button-order__text">Заказать</span>
                         </button>
                     </div>
                 </div>
@@ -457,10 +452,10 @@
                     <p class="more__text">Показать все</p>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <div class="commercial-background">
+        <section class="commercial-background">
             <div class="commercial container">
                 <p class="commercial__text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
                 <div class="commercial__getcommercial">
@@ -468,13 +463,13 @@
                     <img src="./img/more2.svg" alt="more2">
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="foter container">
-            <p>© 2019 CPS <br> Разработано командой Apesong</p>
-            <p>Политика конфиденциальности</p>
-            <p>Информация, размещенная на данной странице, не является публичной офертой</p>
+            <div>© 2019 CPS <br> Разработано командой Apesong</div>
+            <div>Политика конфиденциальности</div>
+            <div>Информация, размещенная на данной странице, не является публичной офертой</div>
         </div>
     </footer>
 </body>
